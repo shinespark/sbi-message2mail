@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "dotenv": "^8.2.0",
+    "googleapis": "^45.0.0",
     "moment": "^2.24.0",
     "puppeteer": "^1.20.0"
+  },
+  "scripts": {
+    "message2mail": "node index.js"
   }
 }
